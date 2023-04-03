@@ -1,0 +1,28 @@
+# 字典
+#name: "hello"
+#age: 18
+# [1, 2, [5, 6, {name: "hao", age: 18, key1:[7, 9], key3:{name: "li", age: 28}}, "haha"],{name: "ha", haha: "hehe"}]
+#- "1"
+#- "2"
+#-
+#  - "5"
+#  - "6"
+#  -
+#    name: "hao"
+#    age: 18
+#    key1:
+#      - "7"
+#      - "9"
+#    key3:
+#      name: "li"
+#      age: 28
+#  - "haha"
+#-
+#  name: "ha"
+#  haha: "hehe"
+data: &test
+  aa: 123
+  bb: 456
+tt:
+  cc: 12
+  <<: *test

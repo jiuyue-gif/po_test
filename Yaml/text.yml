@@ -1,0 +1,11 @@
+Search_Data:
+  search_test_001:
+    except:
+      value: ÄãºÃ
+    value: ÄãºÃ
+  search_test_002:
+    except:
+    - 4
+    - 5
+    - 6
+    value: 456
